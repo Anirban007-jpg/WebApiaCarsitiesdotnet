@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Websites\\Backend\\Carsities\\src\\AuctionService\\AuctionService.csproj": {}
+    "d:\\Websites\\Backend\\Carsities\\src\\AuctionService\\AuctionService.csproj": {}
   },
   "projects": {
-    "D:\\Websites\\Backend\\Carsities\\src\\AuctionService\\AuctionService.csproj": {
+    "d:\\Websites\\Backend\\Carsities\\src\\AuctionService\\AuctionService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Websites\\Backend\\Carsities\\src\\AuctionService\\AuctionService.csproj",
+        "projectUniqueName": "d:\\Websites\\Backend\\Carsities\\src\\AuctionService\\AuctionService.csproj",
         "projectName": "AuctionService",
-        "projectPath": "D:\\Websites\\Backend\\Carsities\\src\\AuctionService\\AuctionService.csproj",
+        "projectPath": "d:\\Websites\\Backend\\Carsities\\src\\AuctionService\\AuctionService.csproj",
         "packagesPath": "C:\\Users\\abane\\.nuget\\packages\\",
-        "outputPath": "D:\\Websites\\Backend\\Carsities\\src\\AuctionService\\obj\\",
+        "outputPath": "d:\\Websites\\Backend\\Carsities\\src\\AuctionService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\abane\\AppData\\Roaming\\NuGet\\NuGet.Config"
