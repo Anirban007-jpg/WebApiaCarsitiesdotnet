@@ -11,7 +11,7 @@ public class Item
     public int Year { get; set; }
     public string Colour { get; set; }
     public int Mileage { get; set; }
-    public string ImageUrl { get; set; }
+    public string ImageUrl { get; set; } = "";
 
     // nav properties
     public Auction Auction { get; set; }
