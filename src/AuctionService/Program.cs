@@ -13,6 +13,16 @@ builder.Services.AddDbContext<AuctionDbContext>(opt =>
 });
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowSpecificOrigin",
+        builder => builder.AllowAnyOrigin() // Or specify your client's origin
+                          .AllowAnyHeader()
+                          .AllowAnyMethod()); // This allows DELETE
+});
+// ...
+
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 
 var app = builder.Build();
@@ -24,7 +34,7 @@ var app = builder.Build();
 
 app.UseAuthorization();
 app.MapControllers();
-
+app.UseCors("AllowSpecificOrigin");
 try
 {
     DbInitializer.InitDb(app);
