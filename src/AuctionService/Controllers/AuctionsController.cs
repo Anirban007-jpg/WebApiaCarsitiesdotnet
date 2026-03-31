@@ -43,4 +43,30 @@ public class AuctionsController : ControllerBase
         await _context.SaveChangesAsync();
         return _mapper.Map<AuctionDto>(auction);
     }
+
+    [HttpPut("{id}")]
+    public async Task<ActionResult<AuctionDto>> UpdateAuction(Guid id, UpdateAuctionDto updateAuctionDto)
+    {
+        var auction = await _context.Auctions.Include(x => x.Item).FirstOrDefaultAsync(x => x.Id == id);
+        if (auction == null) return NotFound();
+        auction.Item.Make = updateAuctionDto.Make ?? auction.Item.Make;
+        auction.Item.Model = updateAuctionDto.Model ?? auction.Item.Model;
+        auction.Item.Colour = updateAuctionDto.Colour ?? auction.Item.Colour;
+        auction.Item.Year = updateAuctionDto.Year ?? auction.Item.Year;
+        auction.Item.Mileage = updateAuctionDto.Mileage ?? auction.Item.Mileage;
+
+        var result = await _context.SaveChangesAsync() > 0;
+        if (result) return Ok();
+        return BadRequest("Problem saving changes");
+    }
+
+    // [HttpDelete("{id}")]
+    // public async Task<ActionResult<AuctionDto>> DeleteAuction(Guid id)
+    // {
+    //     var auction = await _context.Auctions.Include(x => x.Item).FirstOrDefaultAsync(x => x.Id == id);
+    //     if (auction == null) return NotFound();
+    //     _context.Auctions.Remove(auction);
+    //     await _context.SaveChangesAsync();
+    //     return Ok();
+    // }
 }
