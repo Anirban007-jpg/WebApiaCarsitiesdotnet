@@ -10,6 +10,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddOpenApi();
 builder.Services.AddControllers();
 builder.Services.AddAuthorization();
+builder.Services.AddSingleton<DB>(sp =>
+    DB.InitAsync("SearchDb", MongoClientSettings.FromConnectionString(
+        builder.Configuration.GetConnectionString("MongoDbCollection")))
+    .GetAwaiter().GetResult());
 
 var app = builder.Build();
 
