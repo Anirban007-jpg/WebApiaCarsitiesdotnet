@@ -41,3 +41,4 @@ D:\Websites\Backend\Carsities\src\SearchService\obj\Debug\net10.0\refint\SearchS
 D:\Websites\Backend\Carsities\src\SearchService\obj\Debug\net10.0\SearchService.pdb
 D:\Websites\Backend\Carsities\src\SearchService\obj\Debug\net10.0\SearchService.genruntimeconfig.cache
 D:\Websites\Backend\Carsities\src\SearchService\obj\Debug\net10.0\ref\SearchService.dll
+D:\Websites\Backend\Carsities\src\SearchService\bin\Debug\net10.0\Data\auctions.json
