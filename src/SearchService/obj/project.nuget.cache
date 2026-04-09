@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9HunUqMVBgo=",
+  "dgSpecHash": "lF2JQRXHmSg=",
   "success": true,
-  "projectFilePath": "d:\\Websites\\Backend\\Carsities\\src\\SearchService\\SearchService.csproj",
+  "projectFilePath": "D:\\Websites\\Backend\\Carsities\\src\\SearchService\\SearchService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\abane\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\abane\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
@@ -29,9 +29,9 @@
       "code": "NU1903",
       "level": "Warning",
       "message": "Package 'AutoMapper' 11.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-rvv3-g6hj-g44x",
-      "projectPath": "d:\\Websites\\Backend\\Carsities\\src\\SearchService\\SearchService.csproj",
+      "projectPath": "D:\\Websites\\Backend\\Carsities\\src\\SearchService\\SearchService.csproj",
       "warningLevel": 1,
-      "filePath": "d:\\Websites\\Backend\\Carsities\\src\\SearchService\\SearchService.csproj",
+      "filePath": "D:\\Websites\\Backend\\Carsities\\src\\SearchService\\SearchService.csproj",
       "libraryId": "AutoMapper",
       "targetGraphs": [
         "net10.0"

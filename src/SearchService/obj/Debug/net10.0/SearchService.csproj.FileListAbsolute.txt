@@ -42,3 +42,11 @@ D:\Websites\Backend\Carsities\src\SearchService\obj\Debug\net10.0\SearchService.
 D:\Websites\Backend\Carsities\src\SearchService\obj\Debug\net10.0\SearchService.genruntimeconfig.cache
 D:\Websites\Backend\Carsities\src\SearchService\obj\Debug\net10.0\ref\SearchService.dll
 D:\Websites\Backend\Carsities\src\SearchService\bin\Debug\net10.0\Data\auctions.json
+D:\Websites\Backend\Carsities\src\SearchService\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Websites\Backend\Carsities\src\SearchService\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Websites\Backend\Carsities\src\SearchService\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Websites\Backend\Carsities\src\SearchService\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+D:\Websites\Backend\Carsities\src\SearchService\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
+D:\Websites\Backend\Carsities\src\SearchService\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Websites\Backend\Carsities\src\SearchService\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+D:\Websites\Backend\Carsities\src\SearchService\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll

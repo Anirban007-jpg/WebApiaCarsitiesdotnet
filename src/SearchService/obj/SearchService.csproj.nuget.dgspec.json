@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Websites\\Backend\\Carsities\\src\\SearchService\\SearchService.csproj": {}
+    "D:\\Websites\\Backend\\Carsities\\src\\SearchService\\SearchService.csproj": {}
   },
   "projects": {
-    "d:\\Websites\\Backend\\Carsities\\src\\SearchService\\SearchService.csproj": {
+    "D:\\Websites\\Backend\\Carsities\\src\\SearchService\\SearchService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Websites\\Backend\\Carsities\\src\\SearchService\\SearchService.csproj",
+        "projectUniqueName": "D:\\Websites\\Backend\\Carsities\\src\\SearchService\\SearchService.csproj",
         "projectName": "SearchService",
-        "projectPath": "d:\\Websites\\Backend\\Carsities\\src\\SearchService\\SearchService.csproj",
+        "projectPath": "D:\\Websites\\Backend\\Carsities\\src\\SearchService\\SearchService.csproj",
         "packagesPath": "C:\\Users\\abane\\.nuget\\packages\\",
-        "outputPath": "d:\\Websites\\Backend\\Carsities\\src\\SearchService\\obj\\",
+        "outputPath": "D:\\Websites\\Backend\\Carsities\\src\\SearchService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\abane\\AppData\\Roaming\\NuGet\\NuGet.Config"
