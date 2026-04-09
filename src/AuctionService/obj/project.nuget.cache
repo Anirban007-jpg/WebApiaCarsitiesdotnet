@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/kFKPHiUSpg=",
+  "dgSpecHash": "Hizd/acVZ9o=",
   "success": true,
-  "projectFilePath": "D:\\Websites\\Backend\\Carsities\\src\\AuctionService\\AuctionService.csproj",
+  "projectFilePath": "d:\\Websites\\Backend\\Carsities\\src\\AuctionService\\AuctionService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\abane\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\abane\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
@@ -40,9 +40,9 @@
       "code": "NU1903",
       "level": "Warning",
       "message": "Package 'AutoMapper' 11.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-rvv3-g6hj-g44x",
-      "projectPath": "D:\\Websites\\Backend\\Carsities\\src\\AuctionService\\AuctionService.csproj",
+      "projectPath": "d:\\Websites\\Backend\\Carsities\\src\\AuctionService\\AuctionService.csproj",
       "warningLevel": 1,
-      "filePath": "D:\\Websites\\Backend\\Carsities\\src\\AuctionService\\AuctionService.csproj",
+      "filePath": "d:\\Websites\\Backend\\Carsities\\src\\AuctionService\\AuctionService.csproj",
       "libraryId": "AutoMapper",
       "targetGraphs": [
         "net10.0"
