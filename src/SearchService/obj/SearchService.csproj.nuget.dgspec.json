@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Websites\\Backend\\Carsities\\src\\SearchService\\SearchService.csproj": {}
+    "d:\\Websites\\Backend\\Carsities\\src\\SearchService\\SearchService.csproj": {}
   },
   "projects": {
-    "D:\\Websites\\Backend\\Carsities\\src\\SearchService\\SearchService.csproj": {
+    "d:\\Websites\\Backend\\Carsities\\src\\SearchService\\SearchService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Websites\\Backend\\Carsities\\src\\SearchService\\SearchService.csproj",
+        "projectUniqueName": "d:\\Websites\\Backend\\Carsities\\src\\SearchService\\SearchService.csproj",
         "projectName": "SearchService",
-        "projectPath": "D:\\Websites\\Backend\\Carsities\\src\\SearchService\\SearchService.csproj",
+        "projectPath": "d:\\Websites\\Backend\\Carsities\\src\\SearchService\\SearchService.csproj",
         "packagesPath": "C:\\Users\\abane\\.nuget\\packages\\",
-        "outputPath": "D:\\Websites\\Backend\\Carsities\\src\\SearchService\\obj\\",
+        "outputPath": "d:\\Websites\\Backend\\Carsities\\src\\SearchService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\abane\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -47,6 +47,10 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[11.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[10.0.5, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
